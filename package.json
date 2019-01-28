@@ -1,0 +1,41 @@
+{
+  "name": "@ollink/in-browser",
+  "version": "1.0.3",
+  "description": "inject any file as string or json into the browser to work on it in the console",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ollink/inBrowser.git"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "file",
+    "browser",
+    "inject",
+    "json",
+    "geojson"
+  ],
+  "author": "Robin Link",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ollink/inBrowser/issues"
+  },
+  "bin": {
+    "in-browser": "./bin/index.js"
+  },
+  "homepage": "https://github.com/Ollink/inBrowser#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "get-port": "^4.1.0",
+    "opn": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/node": "^10.12.18",
+    "typescript": "^3.2.4"
+  }
+}
