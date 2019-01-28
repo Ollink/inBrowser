@@ -9,7 +9,7 @@ Useful if you want to perform a quick search or other operations on a large json
 npm install -g in-browser
 ```
 
-##Usage
+## Usage
 
 Opening the only .json file in the current directory doesn't require any arguments :
 
