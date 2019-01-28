@@ -1,6 +1,6 @@
 {
   "name": "@ollink/in-browser",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "inject any file as string or json into the browser to work on it in the console",
   "main": "./lib/index.js",
   "scripts": {
